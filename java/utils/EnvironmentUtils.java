@@ -126,7 +126,6 @@ public class EnvironmentUtils {
 						LOG.info("Invalid resources file: " + f.toString());
 					}
 				}
-
 				if (f.isDirectory()) {
 					// get the prop files under {env} folder
 					if (f.getName().toLowerCase().indexOf(env.toLowerCase()) > -1
